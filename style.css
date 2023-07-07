@@ -22,13 +22,15 @@ body{font-family: 'Noto Sans KR', sans-serif; background: #fff; font-size: 16px;
 .visual .inner .textbox {font-size: 20px; font-weight:normal; letter-spacing: 8px;  margin-bottom: 20px; position: relative;}  display: inline-block; padding-left: 130px;text-align: left; padding-bottom: 40px;}
 .visual .inner .textbox:after{content:'';width: 50px; height: 5px; background: #ffffff; position:absolute; top:50%; margin-top:-65px; right: 100px;}
 
+
+
 /*section story*/
-section.story {padding: 80px 0; text-align: center; background:#f9f9f9;}
+section.story {width: 100%;padding: 80px 0; text-align: center;background:#e6d92a;}
 section.story .inner .title {margin-bottom: 30px; color:#333;}
 section.story .inner .title h2 {font-size: 30px; text-transform: uppercase; margin-bottom: 10px;}
 section.story .inner .title p {font-size: 20px;}
-section.story .inner  ul {width: auto; overflow: hidden;}
+section.story .inner  ul {width: 100%; overflow: hidden;}
 
-section.story .inner ul li {float: left; width: 25%;  text-align: center;}
-section.story .inner ul li .icon {margin: 0 auto 20px;}
+section.story .inner ul li{float: left; width: 25%;  text-align: center;}
+section.story .inner ul li p img {width: 50%; height:50%; justify-content:space-around;}
 section.story .inner ul li h3 {font-size: 14px; font-weight: 400;}

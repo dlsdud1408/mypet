@@ -15,6 +15,7 @@ body{font-family: 'Noto Sans KR', sans-serif; background: #fff; font-size: 16px;
  
 /*전체레이아웃의 공통 넓이*/
 .visual.inner{width: 1050px; margin: 0 auto;}
+.living.inner{width: 1050px; margin: 0 auto;}
 .story {width: 1050px; margin: 0 auto;}
 
 /*section.visual*/
@@ -27,7 +28,7 @@ body{font-family: 'Noto Sans KR', sans-serif; background: #fff; font-size: 16px;
 
 /*section story*/
 section.story {width: 100%;padding: 80px 0; text-align: center;background:#FFE6EB;}
-section.story .inner .title {margin-bottom: 30px; color:#333; background-color:hwb(0 100% 0%);}
+section.story .inner .title {margin-bottom: 30px; color:#333;}
 section.story .inner .title h2 {font-size: 50px; margin-bottom: 20px;}
 section.story .inner .title p {font-size: 23px; margin-bottom: 10px; padding-bottom: 50px;}
 section.story .inner  ul {width: 100%; overflow: hidden;}
@@ -36,3 +37,9 @@ section.story .inner ul li{float:left; width: 25%; text-align: center;}
 section.story .inner ul li p img {width: 350px; height:430px; object-fit: cover; align-content:space-around; border-radius: 30%;  border:5px solid rgb(233, 136, 176);}
 section.story .inner ul li h3 {font-size: 25px; font-weight: 400px;}
 
+/*section living*/
+section.living {width: 100%;padding: 80px 0; text-align: center;background:#fdfdfd;}
+section.living .inner ul {width: 100%; overflow: hidden;}
+section.living .inner ul li{float:left; width: 25%; text-align: center;}
+section.living .inner ul li p img {width: 800px; height:800px; object-fit: cover; align-content:space-around; border:8px solid bisque}
+section.living .inner ul li h2 {font-size: 25px; font-weight: 400px;}

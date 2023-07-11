@@ -27,7 +27,7 @@ body{font-family: 'Noto Sans KR', sans-serif; background: #fff; font-size: 16px;
 
 
 /*section story*/
-section.story {width: 100%;padding: 80px 0; text-align: center;background:#FFE6EB;}
+section.story {width: 100%;padding: 250px 0; text-align: center;background:#FFE6EB;}
 section.story .inner .title {margin-bottom: 30px; color:#333;}
 section.story .inner .title h2 {font-size: 50px; margin-bottom: 20px;}
 section.story .inner .title p {font-size: 23px; margin-bottom: 10px; padding-bottom: 50px;}
@@ -46,8 +46,8 @@ section.living .inner ul li p img {width: 500px; height:700px; object-fit: cover
 section.living .inner ul li h2 {font-size: 25px; font-weight: 10px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;margin: auto;}
 
 /*section detail*/
-section.detail {width: 100%; margin: 40px 40px;padding: 20px 20px;}
+section.detail {width: 100%; margin: 10px 40px;padding: 20px 20px;}
 section.detail .inner h2 {font-size: 20px; margin-bottom: 15px; color:#333;}
 section.detail .inner table {width: 100%;  border-top: 2px solid #eee;}
-section.detail .inner table td {padding: 12px 20px; box-sizing: border-box; font-size: 14px; border-bottom: 1px solid #eee;width: 350px;}
-section.detail .inner table td.title {background: #f9f9f9; width: 175px; text-align: center;}
+section.detail .inner table td {padding: 13px 20px; box-sizing: border-box; font-size: 15px; border-bottom: 1px solid #eee;width: 350px;}
+section.detail .inner table td.title {background: bisque; width: 175px; text-align: center;}

@@ -38,15 +38,15 @@ section.story .inner ul li p img {width: 300px; height:350px; object-fit: cover;
 section.story .inner ul li h3 {font-size: 25px; font-weight: 400px;}
 
 /*section living*/
-section.living {width: 100%; padding:20px; text-align: center;background:#fdfdfd;}
+section.living {width: 100%; padding:100px 50px; text-align: center;background:#fdfdfd;}
 section.living .inner ul {width: 100%; overflow: hidden;}
 section.living .inner ul li{float:left; width: 28%; padding-right: 50px;  }
 section.living .inner ul li p {margin-left: 20px 50px;}
 section.living .inner ul li p img {width: 500px; height:700px; object-fit: cover ;align-content:space-around; border:8px solid bisque}
-section.living .inner ul li h2 {font-size: 25px; font-weight: 10px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+section.living .inner ul li h2 {font-size: 25px; font-weight: 10px; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;margin: auto;}
 
 /*section detail*/
-section.detail {width: 100%; padding: 80px 0;}
+section.detail {width: 100%; margin: 40px 40px;padding: 20px 20px;}
 section.detail .inner h2 {font-size: 20px; margin-bottom: 15px; color:#333;}
 section.detail .inner table {width: 100%;  border-top: 2px solid #eee;}
 section.detail .inner table td {padding: 12px 20px; box-sizing: border-box; font-size: 14px; border-bottom: 1px solid #eee;width: 350px;}
